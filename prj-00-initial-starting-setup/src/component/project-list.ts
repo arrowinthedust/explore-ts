@@ -1,9 +1,9 @@
-import {Component} from './base-component.js';
-import {ProjectItem} from './project-item.js';
-import {DragTarget} from '../model/drag-drop.js';
-import {Project, ProjectStatus} from '../model/project.js';
-import {autobind} from '../decorator/autobind.js';
-import {ProjectState} from '../state/project-state.js';
+import {Component} from './base-component';
+import {ProjectItem} from './project-item';
+import {DragTarget} from '../model/drag-drop';
+import {Project, ProjectStatus} from '../model/project';
+import {autobind} from '../decorator/autobind';
+import {ProjectState} from '../state/project-state';
 
 export class ProjectList
   extends Component<HTMLDivElement, HTMLElement>

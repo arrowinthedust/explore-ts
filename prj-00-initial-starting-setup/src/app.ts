@@ -1,5 +1,5 @@
-import { ProjectList } from "./component/project-list.js";
-import { ProjectInput } from "./component/project-input.js";
+import { ProjectList } from "./component/project-list";
+import { ProjectInput } from "./component/project-input";
 
 //npm install --save-dev webpack webpack-cli webpack-dev-server typescript ts-loader
 
@@ -7,3 +7,4 @@ import { ProjectInput } from "./component/project-input.js";
 new ProjectInput();
 new ProjectList("active");
 new ProjectList("finished") ;
+console.log('Hi') ;
